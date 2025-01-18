@@ -1,0 +1,39 @@
+.invoice-form-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .invoice-form-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  

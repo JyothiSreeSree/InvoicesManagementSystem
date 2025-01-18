@@ -1,0 +1,42 @@
+.home-page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-page-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    margin: 20px;
+  }
+  .add-invoice-button,.logout-desktop-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .invoice-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .no-invoices-message {
+    color: #999;
+  }
+  
